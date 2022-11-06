@@ -1,0 +1,36 @@
+{
+  "name": "landu",
+  "productName": "landu",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "Administrator",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0",
+    "@electron-forge/maker-deb": "^6.0.0",
+    "@electron-forge/maker-rpm": "^6.0.0",
+    "@electron-forge/maker-squirrel": "^6.0.0",
+    "@electron-forge/maker-zip": "^6.0.0",
+    "electron": "21.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yabeen/landu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yabeen/landu/issues"
+  },
+  "homepage": "https://github.com/yabeen/landu#readme"
+}
